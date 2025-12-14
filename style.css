@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+button {
+    background: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#note {
+    font-weight: bold;
+    color: red;
+    animation: blink 1s infinite;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}

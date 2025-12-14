@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BSIS Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<h2>BSIS 1st Year Bloc 2 Game</h2>
+
+<p id="note">Remember: Sobrang ganda ni Tintin 😎</p>
+
+<div id="user-info">
+    <input id="name" placeholder="Name"><br>
+    <input id="section" placeholder="Program and Year"><br>
+    <input id="age" placeholder="Age" type="number"><br>
+    <button onclick="startGame()">Start Game</button>
+</div>
+
+<div id="game" style="display:none;">
+    <p id="instruction"></p>
+    <input id="guess" placeholder="Hulaan ang pangalan ng kaklase"><br>
+    <button onclick="submitGuess()">Submit Guess</button>
+    <p id="feedback"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
