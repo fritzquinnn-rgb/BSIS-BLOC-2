@@ -5,15 +5,56 @@
   "start_url": "/BSIS-BLOC-2/index.html",
   "scope": "/BSIS-BLOC-2/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
-  "dir": "ltr",
-  "lang": "en-US",
+  "theme_color": "#0d6efd",
   "icons": [
     {
-      "src": "icons/icon-512x512.png",
+      "src": "/icons/icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screen1.png",
+      "sizes": "640x480",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "games"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "serviceworker": {
+    "src": "/sw.js",
+    "scope": "/",
+    "type": "module"
+  }
 }
